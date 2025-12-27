@@ -1,0 +1,4 @@
+# vidforges.com llms.txt
+User-Agent: *
+Allow: /
+Sitemap: https://vidforges.com/sitemap.xml

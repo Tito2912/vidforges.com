@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FR Sitemap for vidforges.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Accueil -->
+  <url>
+    <loc>https://vidforges.com/fr/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Index du blog -->
+  <url>
+    <loc>https://vidforges.com/fr/blog/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Articles -->
+  <url>
+    <loc>https://vidforges.com/fr/blog/heygen-kling-avatars-ia/</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vidforges.com/fr/blog/kling-ai-ads-workflow/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://vidforges.com/fr/blog/mise-a-jour-kling-4k</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pages légales -->
+  <url>
+    <loc>https://vidforges.com/fr/mentions-legales</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://vidforges.com/fr/politique-de-confidentialite/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Seules les pages indexables sont listées -->
+</urlset>

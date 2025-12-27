@@ -1,0 +1,7 @@
+# robots.txt for https://vidforges.com
+# Allow all crawlers. Sitemap index is referenced below.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://vidforges.com/sitemap.xml

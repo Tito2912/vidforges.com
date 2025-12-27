@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Sitemap index for vidforges.com -->
+  <sitemap>
+    <loc>https://vidforges.com/sitemap-en.xml</loc>
+    <lastmod>2025-12-16</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://vidforges.com/fr/sitemap-fr.xml</loc>
+    <lastmod>2025-12-16</lastmod>
+  </sitemap>
+</sitemapindex>
