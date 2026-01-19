@@ -22,27 +22,28 @@
 /fr/blog/                 /fr/blog/index.html         200
 /fr/politique-de-confidentialite/ /fr/politique-de-confidentialite/index.html 200
 
-# --- Canonical no-slash pages: serve without trailing slash
-/legal-notice             /legal-notice/index.html    200
-/legal-notice/            /legal-notice               301!
-/fr/mentions-legales      /fr/mentions-legales/index.html 200
-/fr/mentions-legales/     /fr/mentions-legales        301!
-/blog/kling-4k-update     /blog/kling-4k-update/index.html 200
-/blog/kling-4k-update/    /blog/kling-4k-update       301!
-/fr/blog/mise-a-jour-kling-4k  /fr/blog/mise-a-jour-kling-4k/index.html 200
-/fr/blog/mise-a-jour-kling-4k/ /fr/blog/mise-a-jour-kling-4k 301!
+# --- Canonical trailing-slash pages (avoid 301s in canonicals/sitemaps)
+/legal-notice/                 /legal-notice/index.html              200
+/legal-notice                  /legal-notice/                       301!
+/fr/mentions-legales/          /fr/mentions-legales/index.html       200
+/fr/mentions-legales           /fr/mentions-legales/                301!
+/blog/kling-4k-update/         /blog/kling-4k-update/index.html      200
+/blog/kling-4k-update          /blog/kling-4k-update/               301!
+/fr/blog/mise-a-jour-kling-4k/ /fr/blog/mise-a-jour-kling-4k/index.html 200
+/fr/blog/mise-a-jour-kling-4k  /fr/blog/mise-a-jour-kling-4k/       301!
 
 # Canonical host
+http://www.vidforges.com/*  https://vidforges.com/:splat  301!
 https://www.vidforges.com/blog-1         https://vidforges.com/blog/kling-ai-ads-workflow/                     301!
 https://www.vidforges.com/blog-1.html    https://vidforges.com/blog/kling-ai-ads-workflow/                     301!
 https://www.vidforges.com/fr/blog-1      https://vidforges.com/fr/blog/kling-ai-ads-workflow/                  301!
 https://www.vidforges.com/fr/blog-1.html https://vidforges.com/fr/blog/kling-ai-ads-workflow/                  301!
-https://www.vidforges.com/legal-notice   https://vidforges.com/legal-notice                301!
-https://www.vidforges.com/legal-notice.html https://vidforges.com/legal-notice             301!
-https://www.vidforges.com/fr/mentions-legales https://vidforges.com/fr/mentions-legales    301!
-https://www.vidforges.com/fr/mentions-legales.html https://vidforges.com/fr/mentions-legales 301!
-https://www.vidforges.com/blog/kling-4k-update.html https://vidforges.com/blog/kling-4k-update 301!
-https://www.vidforges.com/fr/blog/mise-a-jour-kling-4k.html https://vidforges.com/fr/blog/mise-a-jour-kling-4k 301!
+https://www.vidforges.com/legal-notice   https://vidforges.com/legal-notice/               301!
+https://www.vidforges.com/legal-notice.html https://vidforges.com/legal-notice/            301!
+https://www.vidforges.com/fr/mentions-legales https://vidforges.com/fr/mentions-legales/   301!
+https://www.vidforges.com/fr/mentions-legales.html https://vidforges.com/fr/mentions-legales/ 301!
+https://www.vidforges.com/blog/kling-4k-update.html https://vidforges.com/blog/kling-4k-update/ 301!
+https://www.vidforges.com/fr/blog/mise-a-jour-kling-4k.html https://vidforges.com/fr/blog/mise-a-jour-kling-4k/ 301!
 https://www.vidforges.com/*  https://vidforges.com/:splat  301!
 
 # --- Redirect explicit index.html to canonical URLs
@@ -52,9 +53,9 @@ https://www.vidforges.com/*  https://vidforges.com/:splat  301!
 /fr/blog/index.html                /fr/blog/                     301!
 /blog-1/index.html                 /blog/kling-ai-ads-workflow/                      301!
 /fr/blog-1/index.html              /fr/blog/kling-ai-ads-workflow/                   301!
-/legal-notice/index.html           /legal-notice                 301!
+/legal-notice/index.html           /legal-notice/                301!
 /privacy-policy/index.html         /privacy-policy/              301!
-/fr/mentions-legales/index.html    /fr/mentions-legales          301!
+/fr/mentions-legales/index.html    /fr/mentions-legales/         301!
 /fr/politique-de-confidentialite/index.html /fr/politique-de-confidentialite/ 301!
 
 # --- Canonical pretty URLs
@@ -62,13 +63,13 @@ https://www.vidforges.com/*  https://vidforges.com/:splat  301!
 /blog-1.html              /blog/kling-ai-ads-workflow/                      301!
 /fr/blog-1                /fr/blog/kling-ai-ads-workflow/                   301!
 /fr/blog-1.html           /fr/blog/kling-ai-ads-workflow/                   301!
-/blog/kling-4k-update.html /blog/kling-4k-update       301!
-/blog/kling-4k-update/index.html /blog/kling-4k-update 301!
-/fr/blog/mise-a-jour-kling-4k.html /fr/blog/mise-a-jour-kling-4k 301!
-/fr/blog/mise-a-jour-kling-4k/index.html /fr/blog/mise-a-jour-kling-4k 301!
-/legal-notice.html        /legal-notice                 301!
+/blog/kling-4k-update.html /blog/kling-4k-update/      301!
+/blog/kling-4k-update/index.html /blog/kling-4k-update/ 301!
+/fr/blog/mise-a-jour-kling-4k.html /fr/blog/mise-a-jour-kling-4k/ 301!
+/fr/blog/mise-a-jour-kling-4k/index.html /fr/blog/mise-a-jour-kling-4k/ 301!
+/legal-notice.html        /legal-notice/               301!
 /privacy-policy.html      /privacy-policy/              301!
-/fr/mentions-legales.html /fr/mentions-legales          301!
+/fr/mentions-legales.html /fr/mentions-legales/         301!
 /fr/politique-de-confidentialite.html  /fr/politique-de-confidentialite/       301!
 
 # Redirect legacy .html requests handled above (privacy + FR privacy now canonical folders)
