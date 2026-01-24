@@ -34,6 +34,17 @@
     Cross-Origin-Resource-Policy = "same-origin"
     Permissions-Policy = "geolocation=(), camera=(), microphone=(), payment=()"
 
+# Blog-only CSP override to allow Google AdSense assets/frames.
+[[headers]]
+  for = "/blog/*"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://tpc.googlesyndication.com 'nonce-{{NONCE}}'; frame-src https://www.youtube-nocookie.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; img-src 'self' data: https://i.ytimg.com https://*.googlesyndication.com https://*.g.doubleclick.net; media-src 'self'; connect-src 'self' https://www.google-analytics.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; style-src 'self'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests;"
+
+[[headers]]
+  for = "/fr/blog/*"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://tpc.googlesyndication.com 'nonce-{{NONCE}}'; frame-src https://www.youtube-nocookie.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; img-src 'self' data: https://i.ytimg.com https://*.googlesyndication.com https://*.g.doubleclick.net; media-src 'self'; connect-src 'self' https://www.google-analytics.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; style-src 'self'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests;"
+
 # ----------------------------
 # Caching
 # ----------------------------

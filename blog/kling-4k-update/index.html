@@ -18,6 +18,8 @@
   <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
   <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
   <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
 
   <!-- Icons & Manifest -->
   <link rel="icon" href="/images/favicon.ico" sizes="any">
@@ -53,7 +55,12 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/styles.min.css">
+  <link rel="stylesheet" href="/assets/adsense.css">
   <link rel="preload" as="image" href="/images/capture-dashboard-klingai-1600.webp" fetchpriority="high">
+
+  <!-- Google AdSense (blog only) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9370284647469776" crossorigin="anonymous"></script>
+  <script src="/assets/adsense.js" defer></script>
 
   <!-- Default Consent BEFORE GA4 (starts denied). Must carry nonce. -->
   <script nonce="{{NONCE}}">
@@ -178,6 +185,14 @@
           <li><strong>Batch renders</strong>: queue multiple prompts; renders process sequentially.</li>
         </ul>
 
+        <aside class="adsense-block" aria-label="Advertisement">
+          <ins class="adsbygoogle"
+               data-ad-client="ca-pub-9370284647469776"
+               data-ad-slot="1234567890"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        </aside>
+
         <h2>Quality tests</h2>
         <ul>
           <li><strong>Product spot 40s</strong>: 4K clean, minor flicker on neon scenes; solved by lowering motion intensity.</li>
@@ -210,6 +225,14 @@
           <li><strong>Is audio supported?</strong> Kling focuses on visuals; add audio in post for control.</li>
           <li><strong>How to avoid flicker?</strong> Keep motion intensity moderate and seed from a clean still.</li>
         </ul>
+
+        <aside class="adsense-block" aria-label="Advertisement">
+          <ins class="adsbygoogle"
+               data-ad-client="ca-pub-9370284647469776"
+               data-ad-slot="2345678901"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        </aside>
 
         <div class="article-cta">
           <p>Need sharper product shots? Generate stills with <a href="https://creativeai-tools.com/" target="_blank" rel="noopener">Akool</a>, then animate them in Kling for 4K b-roll.</p>

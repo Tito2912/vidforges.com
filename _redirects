@@ -7,6 +7,7 @@
 
 # --- Exceptions: do NOT add a trailing slash to real files or asset paths
 /robots.txt               /robots.txt                 200
+/ads.txt                  /ads.txt                    200
 /sitemap.xml              /sitemap.xml                200
 /sitemap-en.xml           /sitemap-en.xml             200
 /fr/sitemap-fr.xml        /fr/sitemap-fr.xml          200

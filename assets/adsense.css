@@ -1,0 +1,10 @@
+.adsense-block {
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.adsense-block ins.adsbygoogle {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
