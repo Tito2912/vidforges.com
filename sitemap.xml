@@ -9,4 +9,12 @@
     <loc>https://vidforges.com/fr/sitemap-fr.xml</loc>
     <lastmod>2026-01-24</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://vidforges.com/sitemap-es.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://vidforges.com/sitemap-de.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
 </sitemapindex>

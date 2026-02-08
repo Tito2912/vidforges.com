@@ -7,7 +7,10 @@
     <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/"/>
+</url>
 
   <!-- Index du blog -->
   <url>
@@ -15,7 +18,10 @@
     <lastmod>2025-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/blog/"/>
+</url>
 
   <!-- Articles -->
   <url>
@@ -23,20 +29,29 @@
     <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/blog/heygen-kling-avatars-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/blog/heygen-kling-avatars-ia/"/>
+</url>
   <url>
     <loc>https://vidforges.com/fr/blog/kling-ai-ads-workflow/</loc>
     <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/blog/kling-ai-ads-workflow/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/blog/kling-ai-ads-workflow/"/>
+</url>
 
   <url>
     <loc>https://vidforges.com/fr/blog/mise-a-jour-kling-4k/</loc>
     <lastmod>2025-12-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/blog/mise-a-jour-kling-4k/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/blog/mise-a-jour-kling-4k/"/>
+</url>
 
   <!-- Pages légales -->
   <url>
@@ -44,14 +59,20 @@
     <lastmod>2025-12-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/mentions-legales/"/>
+</url>
 
   <url>
     <loc>https://vidforges.com/fr/politique-de-confidentialite/</loc>
     <lastmod>2025-12-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vidforges.com/es/fr/politique-de-confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vidforges.com/de/fr/politique-de-confidentialite/"/>
+</url>
 
   <!-- Seules les pages indexables sont listées -->
 </urlset>

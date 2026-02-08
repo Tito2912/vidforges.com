@@ -1,71 +1,69 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kling AI : guide vidéo IA et tutoriels | Vidforges</title>
-  <meta name="description" content="Guide Kling AI pour la vid&eacute;o IA : architecture diffusion transformer + VAE 3D, modes Standard/Pro/Master, workflows s&ucirc;rs et conseils d&rsquo;usage.">
-
-  <!-- Canonical + Hreflang -->
-  <link rel="canonical" href="https://vidforges.com/fr/">
-  <link rel="alternate" hreflang="en" href="https://vidforges.com/">
-  <link rel="alternate" hreflang="x-default" href="https://vidforges.com/">
-  <link rel="alternate" hreflang="fr" href="https://vidforges.com/fr/">
-
-  <!-- Preconnect (all pages) -->
-  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
-  <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
-  <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
-
-  <!-- Icons & Manifest -->
-  <link rel="icon" href="/images/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png">
-  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64x64.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/images/android-chrome-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/images/android-chrome-512x512.png">
-  <link rel="mask-icon" href="/images/vidforges-favicon-light.svg" color="#6D5EF3">
-  <link rel="manifest" href="/images/site.webmanifest">
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Vidforges">
-  <meta property="og:url" content="https://vidforges.com/fr/">
-  <meta property="og:title" content="Kling AI : créez des vidéos IA pro — Fonctionnalités, usages & tutoriels | Vidforges">
-  <meta property="og:description" content="Guide Kling AI pour la vidéo IA : architecture diffusion transformer + VAE 3D, modes Standard/Pro/Master, workflows sûrs et conseils d'usage.">
-  <meta property="og:image" content="https://vidforges.com/images/og-vidforges.jpg">
-  <meta property="og:image:alt" content="Kling AI — interface de génération vidéo (capture hero)">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kling AI : créez des vidéos IA pro — Fonctionnalités, usages & tutoriels | Vidforges">
-  <meta name="twitter:description" content="Guide Kling AI pour la vidéo IA : architecture diffusion transformer + VAE 3D, modes Standard/Pro/Master, workflows sûrs et conseils d'usage.">
-  <meta name="twitter:image" content="https://vidforges.com/images/og-vidforges.jpg">
-  <meta name="twitter:image:alt" content="Kling AI — interface de génération vidéo (capture hero)">
-  <meta name="twitter:site" content="@Vidforges">
-  <meta name="twitter:creator" content="@Vidforges">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/styles.min.css">
-  <link rel="preload" as="image" href="/images/capture-hero-1600.webp" fetchpriority="high">
-
-  <!-- Consent par défaut AVANT GA4 (démarre en denied). Doit porter le nonce. -->
-  <script nonce="{{NONCE}}">
+<html dir="ltr" lang="fr">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Kling AI : guide vidéo IA et tutoriels | Vidforges</title>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<meta name="description" content="Guide Kling AI pour la vidéo IA : architecture diffusion transformer + VAE 3D, modes Standard/Pro/Master, workflows sûrs et conseils d’usage."/>
+<!-- Canonical + Hreflang -->
+<link rel="canonical" href="https://vidforges.com/fr/"/>
+<link href="https://vidforges.com/" hreflang="en" rel="alternate"/>
+<link href="https://vidforges.com/" hreflang="x-default" rel="alternate"/>
+<link href="https://vidforges.com/fr/" hreflang="fr" rel="alternate"/>
+<link href="https://vidforges.com/es/" hreflang="es" rel="alternate"/>
+<link href="https://vidforges.com/de/" hreflang="de" rel="alternate"/>
+<!-- Preconnect (all pages) -->
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin=""/>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin=""/>
+<link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin=""/>
+<link rel="preconnect" href="https://i.ytimg.com" crossorigin=""/>
+<!-- Icons & Manifest -->
+<link href="/images/favicon.ico" rel="icon" sizes="any"/>
+<link href="/images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/images/favicon-48x48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="/images/favicon-64x64.png" rel="icon" sizes="64x64" type="image/png"/>
+<link href="/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/images/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/images/android-chrome-512x512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link color="#6D5EF3" href="/images/vidforges-favicon-light.svg" rel="mask-icon"/>
+<link href="/images/site.webmanifest" rel="manifest"/>
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Vidforges"/>
+<meta property="og:url" content="https://vidforges.com/fr/"/>
+<meta property="og:title" content="Kling AI : guide vidéo IA et tutoriels | Vidforges"/>
+<meta property="og:description" content="Guide Kling AI pour la vidéo IA : architecture diffusion transformer + VAE 3D, modes Standard/Pro/Master, workflows sûrs et conseils d’usage."/>
+<meta property="og:image" content="https://vidforges.com/images/og-vidforges.jpg"/>
+<meta property="og:image:alt" content="Kling AI — interface de génération vidéo (capture hero)"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Kling AI : guide vidéo IA et tutoriels | Vidforges"/>
+<meta name="twitter:description" content="Guide Kling AI pour la vidéo IA : architecture diffusion transformer + VAE 3D, modes Standard/Pro/Master, workflows sûrs et conseils d’usage."/>
+<meta name="twitter:image" content="https://vidforges.com/images/og-vidforges.jpg"/>
+<meta name="twitter:image:alt" content="Kling AI : guide vidéo IA et tutoriels | Vidforges"/>
+<meta name="twitter:site" content="@Vidforges"/>
+<meta name="twitter:creator" content="@Vidforges"/>
+<!-- Styles -->
+<link href="/assets/styles.min.css" rel="stylesheet"/>
+<link as="image" fetchpriority="high" href="/images/capture-hero-1600.webp" rel="preload"/>
+<!-- Consent par défaut AVANT GA4 (démarre en denied). Doit porter le nonce. -->
+<!-- Google tag (gtag.js) chargé après consentement via main.js -->
+<!-- Données structurées : Organization -->
+<!-- Données structurées : WebSite + SearchAction -->
+<!-- Données structurées : BreadcrumbList (Accueil) -->
+<!-- Données structurées : VideoObject (section YouTube) -->
+<!-- Données structurées : FAQPage (landing FR) -->
+<!-- Données structurées : Article (métadonnées de la landing FR) -->
+<!-- No-JS fallback vers EN si besoin -->
+<noscript>
+<p><a href="/">Go to English version</a></p>
+</noscript>
+<meta name="twitter:url" content="https://vidforges.com/fr/"/><link rel="preconnect" href="https://www.gstatic.com" crossorigin=""/><script nonce="{{NONCE}}">
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
     gtag('consent', 'default', { analytics_storage: 'denied' });
-  </script>
-
-  <!-- Google tag (gtag.js) chargé après consentement via main.js -->
-
-  <!-- Données structurées : Organization -->
-  <script type="application/ld+json" nonce="{{NONCE}}">
+  </script><script nonce="{{NONCE}}" type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -78,10 +76,7 @@
       "height": 40
     }
   }
-  </script>
-
-  <!-- Données structurées : WebSite + SearchAction -->
-  <script type="application/ld+json" nonce="{{NONCE}}">
+  </script><script nonce="{{NONCE}}" type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -93,10 +88,7 @@
       "query-input": "required name=search_term_string"
     }
   }
-  </script>
-
-  <!-- Données structurées : BreadcrumbList (Accueil) -->
-  <script type="application/ld+json" nonce="{{NONCE}}">
+  </script><script nonce="{{NONCE}}" type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"BreadcrumbList",
@@ -104,10 +96,7 @@
       {"@type":"ListItem","position":1,"name":"Accueil","item":"https://vidforges.com/fr/"}
     ]
   }
-  </script>
-
-  <!-- Données structurées : VideoObject (section YouTube) -->
-  <script type="application/ld+json" nonce="{{NONCE}}">
+  </script><script nonce="{{NONCE}}" type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"VideoObject",
@@ -119,10 +108,7 @@
     "embedUrl":"https://www.youtube-nocookie.com/embed/s54nz4WtpX0",
     "publisher":{"@type":"Organization","name":"Vidforges"}
   }
-  </script>
-
-  <!-- Données structurées : FAQPage (landing FR) -->
-  <script type="application/ld+json" nonce="{{NONCE}}">
+  </script><script nonce="{{NONCE}}" type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"FAQPage",
@@ -135,10 +121,7 @@
       {"@type":"Question","name":"Mes données sont-elles privées ?","acceptedAnswer":{"@type":"Answer","text":"Nous minimisons la collecte et proposons des contrôles transparents via le Consent Mode v2. Voir notre Politique de confidentialité."}}
     ]
   }
-  </script>
-
-  <!-- Données structurées : Article (métadonnées de la landing FR) -->
-  <script type="application/ld+json" nonce="{{NONCE}}">
+  </script><script nonce="{{NONCE}}" type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"Article",
@@ -150,389 +133,375 @@
     "image":{"@type":"ImageObject","url":"https://vidforges.com/images/og-vidforges.jpg","width":1200,"height":630},
     "mainEntityOfPage":"https://vidforges.com/fr/"
   }
-  </script>
-
-  <!-- No-JS fallback vers EN si besoin -->
-  <noscript>
-    <p><a href="/">Go to English version</a></p>
-  </noscript>
-</head>
-
+  </script></head>
 <body class="theme-light">
-  <a class="skip-link" href="#main">Aller au contenu</a>
-
-  <!-- En-tête / Navigation unifiée -->
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <a class="brand" href="/fr/" aria-label="Accueil Vidforges">
-        <img src="/images/vidforges-logo.png" alt="Vidforges — logo mot-symbole minimaliste" width="168" height="40" loading="eager" decoding="async">
-      </a>
-
-      <div class="header-actions">
-        <!-- Switcher de langue (texte = langue disponible) -->
-        <button id="langSwitch" class="lang-switch" aria-pressed="false" data-i18n="switch">EN</button>
-
-        <!-- Bouton burger (un drawer unique desktop & mobile, à droite) -->
-        <button id="burger" class="burger" aria-controls="drawer" aria-expanded="false" aria-label="Ouvrir le menu">
-          <span class="burger-bar" aria-hidden="true"></span>
-          <span class="burger-bar" aria-hidden="true"></span>
-          <span class="burger-bar" aria-hidden="true"></span>
-        </button>
-      </div>
-
-      <!-- Drawer à droite -->
-      <div id="drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Menu du site" tabindex="-1">
-        <div class="drawer-header">
-          <button id="drawerClose" class="icon-btn" aria-label="Fermer le menu">&times;</button>
-        </div>
-        <nav class="drawer-nav" role="navigation">
-          <ul>
-            <li><a href="/fr/" data-i18n="nav.home">Accueil</a></li>
-            <li><a href="#features" data-i18n="nav.features">Fonctionnalités</a></li>
-            <li><a href="#usecases" data-i18n="nav.usecases">Cas d’usage</a></li>
-            <li><a href="/fr/blog/" data-i18n="nav.blog">Blog</a></li>
-            <li><a href="/fr/mentions-legales/" data-i18n="nav.legal">Mentions légales</a></li>
-            <li><a href="/fr/politique-de-confidentialite/" data-i18n="nav.legal">Politique de confidentialité</a></li>
-            <li><a href="mailto:contact.ecomshopfrance@gmail.com" data-i18n="nav.contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="drawer-overlay" aria-hidden="true"></div>
-      </div>
-    </div>
-  </header>
-
-  <main id="main">
-  <!-- 1) HERO -->
-  <section class="hero">
-    <div class="hero-bg">
-      <picture class="hero-poster" aria-hidden="true">
-        <source srcset="/images/capture-hero-960.webp 960w, /images/capture-hero-1600.webp 1600w, /images/capture-hero.webp 2400w" type="image/webp" sizes="100vw">
-        <img src="/images/capture-hero-1600.webp" alt="Interface Kling AI &mdash; capture hero avec panneau de prompts" width="2400" height="1400" loading="eager" fetchpriority="high" decoding="async">
-      </picture>
-      <video id="heroVideo" class="hero-video" muted loop playsinline preload="none" poster="/images/capture-hero-1600.webp" aria-hidden="true">
-        <source data-src="/videos/kling-hero.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="container hero-content">
-      <p class="badge">Lancez-vous en 2 minutes</p>
-      <h1 class="h1">Créez de la vidéo IA dont vous êtes fier·e</h1>
-      <p class="lead">
-        Avec Kling&nbsp;AI, passez de l’idée au mouvement en gardant <strong>la main</strong>. Itérez vite, comparez sereinement, et publiez avec une <strong>confiance créative</strong> mesurée—sans promesses impossibles.
+<a class="skip-link" href="#main">Aller au contenu</a>
+<!-- En-tête / Navigation unifiée -->
+<header class="site-header" role="banner">
+<div class="container header-inner">
+<a aria-label="Accueil Vidforges" class="brand" href="/fr/">
+<img alt="Vidforges — logo mot-symbole minimaliste" decoding="async" height="40" loading="eager" src="/images/vidforges-logo.png" width="168"/>
+</a>
+<div class="header-actions">
+<!-- Switcher de langue (texte = langue disponible) -->
+<div aria-label="Language" class="lang-switch">
+<a aria-current="page" href="/fr/" hreflang="fr">FR</a>
+<span aria-hidden="true">|</span>
+<a href="/" hreflang="en">EN</a>
+<span aria-hidden="true">|</span>
+<a href="/es/" hreflang="es">ES</a>
+<span aria-hidden="true">|</span>
+<a href="/de/" hreflang="de">DE</a>
+</div>
+<!-- Bouton burger (un drawer unique desktop & mobile, à droite) -->
+<button aria-controls="drawer" aria-expanded="false" aria-label="Ouvrir le menu" class="burger" id="burger">
+<span aria-hidden="true" class="burger-bar"></span>
+<span aria-hidden="true" class="burger-bar"></span>
+<span aria-hidden="true" class="burger-bar"></span>
+</button>
+</div>
+<!-- Drawer à droite -->
+<div aria-label="Menu du site" aria-modal="true" class="drawer" id="drawer" role="dialog" tabindex="-1">
+<div class="drawer-header">
+<button aria-label="Fermer le menu" class="icon-btn" id="drawerClose">×</button>
+</div>
+<nav class="drawer-nav" role="navigation">
+<ul>
+<li><a data-i18n="nav.home" href="/fr/">Accueil</a></li>
+<li><a data-i18n="nav.features" href="#features">Fonctionnalités</a></li>
+<li><a data-i18n="nav.usecases" href="#usecases">Cas d’usage</a></li>
+<li><a data-i18n="nav.blog" href="/fr/blog/">Blog</a></li>
+<li><a data-i18n="nav.legal" href="/fr/mentions-legales/">Mentions légales</a></li>
+<li><a data-i18n="nav.legal" href="/fr/politique-de-confidentialite/">Politique de confidentialité</a></li>
+<li><a data-i18n="nav.contact" href="mailto:contact.ecomshopfrance@gmail.com">Contact</a></li>
+</ul>
+</nav>
+<div aria-hidden="true" class="drawer-overlay"></div>
+</div>
+</div>
+</header>
+<main id="main">
+<!-- 1) HERO -->
+<section class="hero">
+<div class="hero-bg">
+<picture aria-hidden="true" class="hero-poster">
+<source sizes="100vw" srcset="/images/capture-hero-960.webp 960w, /images/capture-hero-1600.webp 1600w, /images/capture-hero.webp 2400w" type="image/webp">
+<img alt="Interface Kling AI — capture hero avec panneau de prompts" decoding="async" fetchpriority="high" height="1400" loading="eager" src="/images/capture-hero-1600.webp" width="2400"/>
+</picture>
+<video aria-hidden="true" class="hero-video" id="heroVideo" loop="" muted="" playsinline="" poster="/images/capture-hero-1600.webp" preload="none">
+<source data-src="/videos/kling-hero.mp4" type="video/mp4">
+</video>
+</div>
+<div class="container hero-content">
+<p class="badge">Lancez-vous en 2 minutes</p>
+<h1 class="h1">Créez de la vidéo IA dont vous êtes fier·e</h1>
+<p class="lead">
+        Avec Kling AI, passez de l’idée au mouvement en gardant <strong>la main</strong>. Itérez vite, comparez sereinement, et publiez avec une <strong>confiance créative</strong> mesurée—sans promesses impossibles.
       </p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="https://klingaiaffiliate.pxf.io/4G9Der" target="_blank" rel="sponsored noopener">Essayer Kling&nbsp;AI</a>
-        <a class="btn btn-ghost" href="#video">Voir comment ça marche</a>
-      </div>
-      <p class="note" aria-label="Mention marque">Kling&nbsp;AI est une marque déposée de son propriétaire.</p>
-    </div>
-  </section>
-
-  <!-- 2) VIDÉO -->
-  <section id="video" class="section video-section">
-    <div class="container">
-      <h2 class="h2">Aperçu rapide</h2>
-      <div class="video-frame" data-youtube="s54nz4WtpX0" aria-label="Lecteur vidéo : aperçu Kling AI" role="button" tabindex="0">
-        <img src="https://i.ytimg.com/vi/s54nz4WtpX0/hqdefault.jpg"
-             alt="Aperçu Kling AI — miniature YouTube"
-             alt="Aperçu Kling AI — miniature YouTube"
-             width="1200" height="675" loading="lazy" decoding="async">
-        <button class="play-btn" aria-label="Lire la vidéo"></button>
-      </div>
-      <p class="disclaimer">Présentation factuelle : les fonctionnalités et limites évoluent. Vérifiez l’interface en direct.</p>
-    </div>
-  </section>
-
-  <!-- 3) POURQUOI KLING SE DEMARQUE -->
-  <section class="section proof">
-    <div class="container grid-3">
-      <div class="card">
-        <h3 class="h3">Moteur sign&eacute; Kuaishou</h3>
-        <p>Kling est d&eacute;velopp&eacute; par l&rsquo;&eacute;quipe R&amp;D vid&eacute;o de Kuaishou&mdash;la m&ecirc;me qui propulse Kwai et KMovie. L&rsquo;infrastructure est pens&eacute;e pour la production quotidienne, donc les rendus restent stables m&ecirc;me en charge.</p>
-      </div>
-      <div class="card">
-        <h3 class="h3">Mouvements fid&egrave;les &agrave; la physique</h3>
-        <p>Le mod&egrave;le suit les trajectoires cam&eacute;ra et la m&eacute;canique des corps pour cr&eacute;er travellings, panoramiques ou dolly sans effet &laquo;&nbsp;caoutchouc&nbsp;&raquo;. Les curseurs de pond&eacute;ration gardent vos sujets ancr&eacute;s.</p>
-      </div>
-      <div class="card">
-        <h3 class="h3">Formats longs en quelques minutes</h3>
-        <p>Les annonces officielles indiquent jusqu&rsquo;&agrave; 2&nbsp;minutes en 1080p 30&nbsp;ips. Combinez cela avec la file Kling pour lancer plusieurs variantes et retenir la prise la plus propre.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 3bis) TECH KLING -->
-  <section class="section tech">
-    <div class="container grid-2">
-      <div>
-        <p class="badge">Sous le capot</p>
-        <h2 class="h2">Comment Kling IA fonctionne</h2>
-        <p>Les versions 2.x de Kling s&rsquo;appuient sur une architecture diffusion transformer (DiT) associ&eacute;e &agrave; un VAE 3D maison pour compresser le spatio-temporel. Cela pr&eacute;serve les d&eacute;tails sur les mouvements rapides tout en restant assez efficace pour la file publique.</p>
-      </div>
-      <div>
-        <ul class="bullets">
-          <li>Coeur Diffusion Transformer combin&eacute; &agrave; un VAE 3D pour garder la coh&eacute;rence des trajectoires, reflets et d&eacute;formations.</li>
-          <li>Modes Standard, Pro et Master dans Kling 2.x avec sorties 720p ou 1080p &agrave; 30&nbsp;ips sur des clips d&rsquo;environ 2&nbsp;minutes.</li>
-          <li>Moteur con&ccedil;u par le labo vid&eacute;o de Kuaishou (Kwai/KMovie), calibr&eacute; pour la production quotidienne et la mont&eacute;e en charge.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- 4) POURQUOI KLING AI -->
-  <section class="section why">
-    <div class="container">
-      <h2 class="h2">Pourquoi Kling&nbsp;AI</h2>
-      <ul class="bullets">
-        <li><strong>Prompts cin&eacute;matiques imm&eacute;diats</strong>&nbsp;: d&eacute;crivez mouvement, optique et tempo dans le prompt et Kling conserve profondeur et lumi&egrave;re pour un plan cr&eacute;dible.</li>
-        <li><strong>Entr&eacute;es hybrides qui tiennent</strong>&nbsp;: combinez texte, r&eacute;f&eacute;rences ou rushs pour garder style de marque et continuit&eacute; personnage.</li>
-        <li><strong>File d&#39;attente et versions int&eacute;gr&eacute;es</strong>&nbsp;: suivez l&#39;avancement, dupliquez un rendu avec un seul ajustement et comparez sans quitter le tableau de bord.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- 5) FONCTIONNALITÉS -->
-  <section id="features" class="section features">
-    <div class="container grid-4">
-      <article class="feature">
-        <h3 class="h3">Texte → Vidéo</h3>
-        <p>D&eacute;crivez la sc&egrave;ne, la trajectoire cam&eacute;ra et le tempo. Le parser de Kling transforme ces notes en mouvement avec profondeur pour rallonger le plan apr&egrave;s une pr&eacute;visualisation de 4&nbsp;s.</p>
-      </article>
-      <article class="feature">
-        <h3 class="h3">Image/Vidéo → Vidéo</h3>
-        <p>D&eacute;posez une photo produit ou un rush de r&eacute;f&eacute;rence pour verrouiller le style. Les curseurs de force pilotent la fid&eacute;lit&eacute; &agrave; votre base.</p>
-      </article>
-      <article class="feature">
-        <h3 class="h3">Contrôles & workflow</h3>
-        <p>Ajustez protection du sujet, amplitude du mouvement et d&eacute;calage cam&eacute;ra. Dupliquez un rendu pour comparer physique, lumi&egrave;re ou cadrage.</p>
-      </article>
-      <article class="feature">
-        <h3 class="h3">API & intégrations</h3>
-        <p>Automatisez via l&#39;API asynchrone&nbsp;: envoyez vos prompts, surveillez le statut et versez les fichiers finaux dans votre stockage ou votre outil de montage.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- 6) DÉMOS -->
-  <section class="section demos">
-    <div class="container">
-      <h2 class="h2">Démos d’exemple</h2>
-      <div class="demo-grid">
-        <figure class="demo">
-	          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/kling_20251011_Image_to_Video_A_boy_stan_3841_0.webp">
-	            <source src="/videos/kling_20251011_Image_to_Video_A_boy_stan_3841_0.mp4" type="video/mp4">
-	          </video>
-          <figcaption>Garçon — démo</figcaption>
-        </figure>
-        <figure class="demo">
-	          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/kling_20251011_Image_to_Video_A_cat_look_3802_0.webp">
-	            <source src="/videos/kling_20251011_Image_to_Video_A_cat_look_3802_0.mp4" type="video/mp4">
-	          </video>
-          <figcaption>Chat — démo</figcaption>
-        </figure>
-        <figure class="demo">
-	          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/kling_20251011_Image_to_Video_A_dragon_a_3802_0.webp">
-	            <source src="/videos/kling_20251011_Image_to_Video_A_dragon_a_3802_0.mp4" type="video/mp4">
-	          </video>
-          <figcaption>Dragon — démo</figcaption>
-        </figure>
-        <figure class="demo">
-          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/kling_20251011_Image_to_Video_A_halo_spi_3809_0.webp">
-            <source src="/videos/kling_20251011_Image_to_Video_A_halo_spi_3809_0.mp4" type="video/mp4">
-          </video>
-          <figcaption>Style « Halo » — démo</figcaption>
-        </figure>
-        <figure class="demo">
-          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/animal-driving.webp">
-            <source src="/videos/animal-driving.mp4" type="video/mp4">
-          </video>
-          <figcaption>Animal au volant — démo</figcaption>
-        </figure>
-        <figure class="demo">
-          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/christmas.webp">
-            <source src="/videos/christmas.mp4" type="video/mp4">
-          </video>
-          <figcaption>Noël — démo</figcaption>
-        </figure>
-        <figure class="demo">
-          <video preload="none" controls playsinline class="demo-video" poster="/images/demos/restyle-2.webp">
-            <source src="/videos/restyle-2.mp4" type="video/mp4">
-          </video>
-          <figcaption>Restyle — démo</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- 7) CAS D’USAGE -->
-  <section id="usecases" class="section use-cases">
-    <div class="container grid-4">
-      <div class="case">
-        <h3 class="h3">E-commerce</h3>
-        <p>G&eacute;n&eacute;rez des boucles 9:16 avec une lumi&egrave;re stable. L&#39;image-vers-vid&eacute;o verrouille packaging, textures et couleurs de marque.</p>
-      </div>
-      <div class="case">
-        <h3 class="h3">Jeux vidéo</h3>
-        <p>Prototypage de boss ou d&#39;environnements. La cam&eacute;ra sensible &agrave; la physique livre un mouvement cr&eacute;dible pour vos pitch decks.</p>
-      </div>
-      <div class="case">
-        <h3 class="h3">Marketing / Social</h3>
-        <p>Testez des hooks TikTok, Reels ou Shorts en s&eacute;rie. Empilez plusieurs angles de prompt et publiez le clip qui retient l&#39;attention.</p>
-      </div>
-      <div class="case">
-        <h3 class="h3">Éducation</h3>
-        <p>Illustrez des processus abstraits avec une cam&eacute;ra lente et lisible. Exportez les sous-titres et r&eacute;utilisez la s&eacute;quence dans vos modules de formation.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 8) GALERIE -->
-  <section class="section gallery">
-    <div class="container">
-      <h2 class="h2">Galerie & écrans</h2>
-      <div class="masonry">
-        <figure class="tile">
-          <picture>
-            <source srcset="/images/capture-hero.webp" type="image/webp">
-            <img src="/images/capture-hero-1600.jpg" alt="Kling AI — interface de génération vidéo" loading="lazy" decoding="async" width="3677" height="2140">
-          </picture>
-          <figcaption>Point d’entrée lisible avec contrôles clairs.</figcaption>
-        </figure>
-        <figure class="tile">
-          <picture>
-            <source srcset="/images/capture-dashboard-klingai.webp" type="image/webp">
-            <img src="/images/capture-dashboard-klingai-1600.jpg" alt="Kling AI — tableau de bord" loading="lazy" decoding="async" width="3695" height="2145">
-          </picture>
-          <figcaption>Vue d’ensemble pour itérer.</figcaption>
-        </figure>
-        <figure class="tile">
-          <picture>
-            <source srcset="/images/capture-imagegenerator.webp" type="image/webp">
-            <img src="/images/capture-imagegenerator-1600.jpg" alt="Kling AI — écran image→vidéo" loading="lazy" decoding="async" width="3705" height="2145">
-          </picture>
-          <figcaption>Mouvement piloté et cadrage contrôlé.</figcaption>
-        </figure>
-        <figure class="tile">
-          <picture>
-            <source srcset="/images/capture-deepseek-kling.webp" type="image/webp">
-            <img src="/images/capture-deepseek-kling-1600.jpg" alt="Kling AI — panneau de contrôles avancés" loading="lazy" decoding="async" width="3702" height="2140">
-          </picture>
-          <figcaption>Réglages fins pour limiter la dérive.</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- 8bis) Mise en avant blog -->
-  <section class="section blog-teaser">
-    <div class="container grid-2">
-      <div>
-        <p class="badge">Nouveau guide</p>
-        <h2 class="h2">Construire une pub verticale avec Kling&nbsp;AI</h2>
-        <p class="lead">Storyboard, angles de prompts et checklist conversion pour livrer un spot de 30&nbsp;s.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="/fr/blog/kling-ai-ads-workflow/">Lire le workflow 30&nbsp;s</a>
-          <a class="btn btn-ghost" href="/fr/blog/">Voir les articles</a>
-        </div>
-      </div>
-      <div>
-        <ul class="bullets">
-          <li>Hook, preuve, démo guidée et appel à l’action.</li>
-          <li>Prompts Kling prêts à coller selon l’angle marketing.</li>
-          <li>Checklist montage pour maintenir la rétention et le CTR.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- 9) NOTE TARIFS -->
-  <section class="section pricing-note">
-    <div class="container">
-      <p>Les offres peuvent évoluer — consultez les tarifs à jour sur la page officielle.</p>
-      <a class="btn btn-primary" href="https://klingaiaffiliate.pxf.io/4G9Der" target="_blank" rel="sponsored noopener">Ouvrir Kling&nbsp;AI</a>
-    </div>
-  </section>
-
-  <!-- 10) FAQ SEO -->
-  <section class="section faq">
-    <div class="container">
-      <h2 class="h2">FAQ</h2>
-      <details>
-        <summary>Quel mod&egrave;le IA utilise Kling&nbsp;?</summary>
-        <div class="answer">Kling 2.x tourne sur un Diffusion Transformer (DiT) coupl&eacute; &agrave; un VAE 3D pour compresser le spatio-temporel. Les modes Standard, Pro et Master livrent du 720p ou 1080p &agrave; 30&nbsp;ips, avec des d&eacute;mos officielles jusqu&rsquo;&agrave; environ deux minutes.</div>
-      </details>
-      <details>
-        <summary>Quelles résolutions sont prises en charge ?</summary>
-        <div class="answer">Les options évoluent. Les sorties HD et verticales sont souvent proposées ; vérifiez l’interface en direct.</div>
-      </details>
-      <details>
-        <summary>Usage commercial possible ?</summary>
-        <div class="answer">Consultez les conditions en vigueur et les droits des éléments importés. Respectez les politiques des plateformes.</div>
-      </details>
-      <details>
-        <summary>Origine des captures et démos ?</summary>
-        <div class="answer">Nos propres captures lors de tests contrôlés et le pack média fourni pour Vidforges.</div>
-      </details>
-      <details>
-        <summary>Des restrictions de contenu ?</summary>
-        <div class="answer">Évitez les sujets sensibles et suivez les règles des plateformes. Les politiques évoluent.</div>
-      </details>
-      <details>
-        <summary>Quelle rapidité de génération ?</summary>
-        <div class="answer">Selon réglages et file d’attente. Itérez d’abord, puis augmentez la durée quand le look est stable.</div>
-      </details>
-      <details>
-        <summary>Les analytics sont-elles optionnelles ?</summary>
-        <div class="answer">Oui. Elles sont désactivées par défaut et n’activées qu’après consentement. Vous pouvez rouvrir les paramètres.</div>
-      </details>
-    </div>
-  </section>
+<div class="cta-row">
+<a class="btn btn-primary" href="https://klingaiaffiliate.pxf.io/4G9Der" rel="sponsored noopener noreferrer" target="_blank">Essayer Kling AI</a>
+<a class="btn btn-ghost" href="#video">Voir comment ça marche</a>
+</div>
+<p aria-label="Mention marque" class="note">Kling AI est une marque déposée de son propriétaire.</p>
+</div>
+</section>
+<!-- 2) VIDÉO -->
+<section class="section video-section" id="video">
+<div class="container">
+<h2 class="h2">Aperçu rapide</h2>
+<div aria-label="Lecteur vidéo : aperçu Kling AI" class="video-frame" data-youtube="s54nz4WtpX0" role="button" tabindex="0">
+<img alt="Aperçu Kling AI — miniature YouTube" decoding="async" height="675" loading="lazy" src="https://i.ytimg.com/vi/s54nz4WtpX0/hqdefault.jpg" width="1200"/>
+<button aria-label="Lire la vidéo" class="play-btn"></button>
+</div>
+<p class="disclaimer">Présentation factuelle : les fonctionnalités et limites évoluent. Vérifiez l’interface en direct.</p>
+</div>
+</section>
+<!-- 3) POURQUOI KLING SE DEMARQUE -->
+<section class="section proof">
+<div class="container grid-3">
+<div class="card">
+<h3 class="h3">Moteur signé Kuaishou</h3>
+<p>Kling est développé par l’équipe R&amp;D vidéo de Kuaishou—la même qui propulse Kwai et KMovie. L’infrastructure est pensée pour la production quotidienne, donc les rendus restent stables même en charge.</p>
+</div>
+<div class="card">
+<h3 class="h3">Mouvements fidèles à la physique</h3>
+<p>Le modèle suit les trajectoires caméra et la mécanique des corps pour créer travellings, panoramiques ou dolly sans effet « caoutchouc ». Les curseurs de pondération gardent vos sujets ancrés.</p>
+</div>
+<div class="card">
+<h3 class="h3">Formats longs en quelques minutes</h3>
+<p>Les annonces officielles indiquent jusqu’à 2 minutes en 1080p 30 ips. Combinez cela avec la file Kling pour lancer plusieurs variantes et retenir la prise la plus propre.</p>
+</div>
+</div>
+</section>
+<!-- 3bis) TECH KLING -->
+<section class="section tech">
+<div class="container grid-2">
+<div>
+<p class="badge">Sous le capot</p>
+<h2 class="h2">Comment Kling IA fonctionne</h2>
+<p>Les versions 2.x de Kling s’appuient sur une architecture diffusion transformer (DiT) associée à un VAE 3D maison pour compresser le spatio-temporel. Cela préserve les détails sur les mouvements rapides tout en restant assez efficace pour la file publique.</p>
+</div>
+<div>
+<ul class="bullets">
+<li>Coeur Diffusion Transformer combiné à un VAE 3D pour garder la cohérence des trajectoires, reflets et déformations.</li>
+<li>Modes Standard, Pro et Master dans Kling 2.x avec sorties 720p ou 1080p à 30 ips sur des clips d’environ 2 minutes.</li>
+<li>Moteur conçu par le labo vidéo de Kuaishou (Kwai/KMovie), calibré pour la production quotidienne et la montée en charge.</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- 4) POURQUOI KLING AI -->
+<section class="section why">
+<div class="container">
+<h2 class="h2">Pourquoi Kling AI</h2>
+<ul class="bullets">
+<li><strong>Prompts cinématiques immédiats</strong> : décrivez mouvement, optique et tempo dans le prompt et Kling conserve profondeur et lumière pour un plan crédible.</li>
+<li><strong>Entrées hybrides qui tiennent</strong> : combinez texte, références ou rushs pour garder style de marque et continuité personnage.</li>
+<li><strong>File d'attente et versions intégrées</strong> : suivez l'avancement, dupliquez un rendu avec un seul ajustement et comparez sans quitter le tableau de bord.</li>
+</ul>
+</div>
+</section>
+<!-- 5) FONCTIONNALITÉS -->
+<section class="section features" id="features">
+<div class="container grid-4">
+<article class="feature">
+<h3 class="h3">Texte → Vidéo</h3>
+<p>Décrivez la scène, la trajectoire caméra et le tempo. Le parser de Kling transforme ces notes en mouvement avec profondeur pour rallonger le plan après une prévisualisation de 4 s.</p>
+</article>
+<article class="feature">
+<h3 class="h3">Image/Vidéo → Vidéo</h3>
+<p>Déposez une photo produit ou un rush de référence pour verrouiller le style. Les curseurs de force pilotent la fidélité à votre base.</p>
+</article>
+<article class="feature">
+<h3 class="h3">Contrôles &amp; workflow</h3>
+<p>Ajustez protection du sujet, amplitude du mouvement et décalage caméra. Dupliquez un rendu pour comparer physique, lumière ou cadrage.</p>
+</article>
+<article class="feature">
+<h3 class="h3">API &amp; intégrations</h3>
+<p>Automatisez via l'API asynchrone : envoyez vos prompts, surveillez le statut et versez les fichiers finaux dans votre stockage ou votre outil de montage.</p>
+</article>
+</div>
+</section>
+<!-- 6) DÉMOS -->
+<section class="section demos">
+<div class="container">
+<h2 class="h2">Démos d’exemple</h2>
+<div class="demo-grid">
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/kling_20251011_Image_to_Video_A_boy_stan_3841_0.webp" preload="none">
+<source src="/videos/kling_20251011_Image_to_Video_A_boy_stan_3841_0.mp4" type="video/mp4">
+</video>
+<figcaption>Garçon — démo</figcaption>
+</figure>
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/kling_20251011_Image_to_Video_A_cat_look_3802_0.webp" preload="none">
+<source src="/videos/kling_20251011_Image_to_Video_A_cat_look_3802_0.mp4" type="video/mp4">
+</video>
+<figcaption>Chat — démo</figcaption>
+</figure>
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/kling_20251011_Image_to_Video_A_dragon_a_3802_0.webp" preload="none">
+<source src="/videos/kling_20251011_Image_to_Video_A_dragon_a_3802_0.mp4" type="video/mp4">
+</video>
+<figcaption>Dragon — démo</figcaption>
+</figure>
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/kling_20251011_Image_to_Video_A_halo_spi_3809_0.webp" preload="none">
+<source src="/videos/kling_20251011_Image_to_Video_A_halo_spi_3809_0.mp4" type="video/mp4">
+</video>
+<figcaption>Style « Halo » — démo</figcaption>
+</figure>
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/animal-driving.webp" preload="none">
+<source src="/videos/animal-driving.mp4" type="video/mp4">
+</video>
+<figcaption>Animal au volant — démo</figcaption>
+</figure>
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/christmas.webp" preload="none">
+<source src="/videos/christmas.mp4" type="video/mp4">
+</video>
+<figcaption>Noël — démo</figcaption>
+</figure>
+<figure class="demo">
+<video class="demo-video" controls="" playsinline="" poster="/images/demos/restyle-2.webp" preload="none">
+<source src="/videos/restyle-2.mp4" type="video/mp4">
+</video>
+<figcaption>Restyle — démo</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<!-- 7) CAS D’USAGE -->
+<section class="section use-cases" id="usecases">
+<div class="container grid-4">
+<div class="case">
+<h3 class="h3">E-commerce</h3>
+<p>Générez des boucles 9:16 avec une lumière stable. L'image-vers-vidéo verrouille packaging, textures et couleurs de marque.</p>
+</div>
+<div class="case">
+<h3 class="h3">Jeux vidéo</h3>
+<p>Prototypage de boss ou d'environnements. La caméra sensible à la physique livre un mouvement crédible pour vos pitch decks.</p>
+</div>
+<div class="case">
+<h3 class="h3">Marketing / Social</h3>
+<p>Testez des hooks TikTok, Reels ou Shorts en série. Empilez plusieurs angles de prompt et publiez le clip qui retient l'attention.</p>
+</div>
+<div class="case">
+<h3 class="h3">Éducation</h3>
+<p>Illustrez des processus abstraits avec une caméra lente et lisible. Exportez les sous-titres et réutilisez la séquence dans vos modules de formation.</p>
+</div>
+</div>
+</section>
+<!-- 8) GALERIE -->
+<section class="section gallery">
+<div class="container">
+<h2 class="h2">Galerie &amp; écrans</h2>
+<div class="masonry">
+<figure class="tile">
+<picture>
+<source srcset="/images/capture-hero.webp" type="image/webp">
+<img alt="Kling AI — interface de génération vidéo" decoding="async" height="2140" loading="lazy" src="/images/capture-hero-1600.jpg" width="3677"/>
+</picture>
+<figcaption>Point d’entrée lisible avec contrôles clairs.</figcaption>
+</figure>
+<figure class="tile">
+<picture>
+<source srcset="/images/capture-dashboard-klingai.webp" type="image/webp">
+<img alt="Kling AI — tableau de bord" decoding="async" height="2145" loading="lazy" src="/images/capture-dashboard-klingai-1600.jpg" width="3695"/>
+</picture>
+<figcaption>Vue d’ensemble pour itérer.</figcaption>
+</figure>
+<figure class="tile">
+<picture>
+<source srcset="/images/capture-imagegenerator.webp" type="image/webp">
+<img alt="Kling AI — écran image→vidéo" decoding="async" height="2145" loading="lazy" src="/images/capture-imagegenerator-1600.jpg" width="3705"/>
+</picture>
+<figcaption>Mouvement piloté et cadrage contrôlé.</figcaption>
+</figure>
+<figure class="tile">
+<picture>
+<source srcset="/images/capture-deepseek-kling.webp" type="image/webp">
+<img alt="Kling AI — panneau de contrôles avancés" decoding="async" height="2140" loading="lazy" src="/images/capture-deepseek-kling-1600.jpg" width="3702"/>
+</picture>
+<figcaption>Réglages fins pour limiter la dérive.</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<!-- 8bis) Mise en avant blog -->
+<section class="section blog-teaser">
+<div class="container grid-2">
+<div>
+<p class="badge">Nouveau guide</p>
+<h2 class="h2">Construire une pub verticale avec Kling AI</h2>
+<p class="lead">Storyboard, angles de prompts et checklist conversion pour livrer un spot de 30 s.</p>
+<div class="cta-row">
+<a class="btn btn-primary" href="/fr/blog/kling-ai-ads-workflow/">Lire le workflow 30 s</a>
+<a class="btn btn-ghost" href="/fr/blog/">Voir les articles</a>
+</div>
+</div>
+<div>
+<ul class="bullets">
+<li>Hook, preuve, démo guidée et appel à l’action.</li>
+<li>Prompts Kling prêts à coller selon l’angle marketing.</li>
+<li>Checklist montage pour maintenir la rétention et le CTR.</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- 9) NOTE TARIFS -->
+<section class="section pricing-note">
+<div class="container">
+<p>Les offres peuvent évoluer — consultez les tarifs à jour sur la page officielle.</p>
+<a class="btn btn-primary" href="https://klingaiaffiliate.pxf.io/4G9Der" rel="sponsored noopener noreferrer" target="_blank">Ouvrir Kling AI</a>
+</div>
+</section>
+<!-- 10) FAQ SEO -->
+<section class="section faq">
+<div class="container">
+<h2 class="h2">FAQ</h2>
+<details>
+<summary>Quel modèle IA utilise Kling ?</summary>
+<div class="answer">Kling 2.x tourne sur un Diffusion Transformer (DiT) couplé à un VAE 3D pour compresser le spatio-temporel. Les modes Standard, Pro et Master livrent du 720p ou 1080p à 30 ips, avec des démos officielles jusqu’à environ deux minutes.</div>
+</details>
+<details>
+<summary>Quelles résolutions sont prises en charge ?</summary>
+<div class="answer">Les options évoluent. Les sorties HD et verticales sont souvent proposées ; vérifiez l’interface en direct.</div>
+</details>
+<details>
+<summary>Usage commercial possible ?</summary>
+<div class="answer">Consultez les conditions en vigueur et les droits des éléments importés. Respectez les politiques des plateformes.</div>
+</details>
+<details>
+<summary>Origine des captures et démos ?</summary>
+<div class="answer">Nos propres captures lors de tests contrôlés et le pack média fourni pour Vidforges.</div>
+</details>
+<details>
+<summary>Des restrictions de contenu ?</summary>
+<div class="answer">Évitez les sujets sensibles et suivez les règles des plateformes. Les politiques évoluent.</div>
+</details>
+<details>
+<summary>Quelle rapidité de génération ?</summary>
+<div class="answer">Selon réglages et file d’attente. Itérez d’abord, puis augmentez la durée quand le look est stable.</div>
+</details>
+<details>
+<summary>Les analytics sont-elles optionnelles ?</summary>
+<div class="answer">Oui. Elles sont désactivées par défaut et n’activées qu’après consentement. Vous pouvez rouvrir les paramètres.</div>
+</details>
+</div>
+</section>
 </main>
-
-  <!-- Pied de page -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container footer-grid">
-      <div>
-        <img src="/images/vidforges-favicon-dark.svg" alt="Favicon Vidforges" width="32" height="32" loading="lazy" decoding="async">
-        <p class="small">© <span id="year">2025</span> Vidforges — Tous droits réservés.</p>
-        <p class="small">« Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous. »</p>
-        <p class="small">SASU E-Com Shop — SIREN 934 934 308 — 60 rue François 1er, 75008 Paris — <a href="mailto:contact.ecomshopfrance@gmail.com">contact.ecomshopfrance@gmail.com</a></p>
-      </div>
-      <nav aria-label="Pied de page" class="footer-nav">
-        <a href="/fr/">Accueil</a>
-        <a href="/fr/#features">Fonctionnalités</a>
-        <a href="/fr/#usecases">Cas d’usage</a>
-        <a href="/fr/blog/">Blog</a>
-        <a href="/fr/mentions-legales/">Mentions légales</a>
-        <a href="/fr/politique-de-confidentialite/">Politique de confidentialité</a>
-        <a href="mailto:contact.ecomshopfrance@gmail.com">Contact</a>
-        <button id="footerLang" class="lang-switch" aria-pressed="false">EN</button>
-      </nav>
-    </div>
-    <div class="kling-note small">Kling AI est une marque déposée de son propriétaire.</div>
-  
+<!-- Pied de page -->
+<footer class="site-footer" role="contentinfo">
+<div class="container footer-grid">
+<div>
+<img alt="Favicon Vidforges" decoding="async" height="32" loading="lazy" src="/images/vidforges-favicon-dark.svg" width="32"/>
+<p class="small">© <span id="year">2025</span> Vidforges — Tous droits réservés.</p>
+<p class="small">« Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous. »</p>
+<p class="small">SASU E-Com Shop — SIREN 934 934 308 — 60 rue François 1er, 75008 Paris — <a href="mailto:contact.ecomshopfrance@gmail.com">contact.ecomshopfrance@gmail.com</a></p>
+</div>
+<nav aria-label="Pied de page" class="footer-nav">
+<a href="/fr/">Accueil</a>
+<a href="/fr/#features">Fonctionnalités</a>
+<a href="/fr/#usecases">Cas d’usage</a>
+<a href="/fr/blog/">Blog</a>
+<a href="/fr/mentions-legales/">Mentions légales</a>
+<a href="/fr/politique-de-confidentialite/">Politique de confidentialité</a>
+<a href="mailto:contact.ecomshopfrance@gmail.com">Contact</a>
+<div aria-label="Language" class="lang-switch">
+<a aria-current="page" href="/fr/" hreflang="fr">FR</a>
+<span aria-hidden="true">|</span>
+<a href="/" hreflang="en">EN</a>
+<span aria-hidden="true">|</span>
+<a href="/es/" hreflang="es">ES</a>
+<span aria-hidden="true">|</span>
+<a href="/de/" hreflang="de">DE</a>
+</div>
+</nav>
+</div>
+<div class="kling-note small">Kling AI est une marque déposée de son propriétaire.</div>
 <!-- site-network:start -->
-  <div class="site-network" style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(128,128,128,.35);">
-    <div class="container" style="font-size:0.95rem;line-height:1.4;">
-      <p style="margin:0;"><strong>Nos autres sites :</strong> Découvrir <a href="https://vividyard.com/" target="_blank" rel="noopener">vividyard.com</a> · <a href="https://voiceover-captions-ai.com/" target="_blank" rel="noopener">voiceover-captions-ai.com</a> · <a href="https://voiceoverstudioai.com/" target="_blank" rel="noopener">voiceoverstudioai.com</a></p>
-    </div>
-  </div>
+<div class="site-network" style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(128,128,128,.35);">
+<div class="container" style="font-size:0.95rem;line-height:1.4;">
+<p style="margin:0;"><strong>Nos autres sites :</strong> Découvrir <a href="https://vividyard.com/" rel="noopener noreferrer" target="_blank">vividyard.com</a> · <a href="https://voiceover-captions-ai.com/" rel="noopener noreferrer" target="_blank">voiceover-captions-ai.com</a> · <a href="https://voiceoverstudioai.com/" rel="noopener noreferrer" target="_blank">voiceoverstudioai.com</a></p>
+</div>
+</div>
 <!-- site-network:end -->
 </footer>
-
-  <!-- Bandeau consentement (caché par défaut ; contrôlé via JS) -->
-  <div id="consent" class="consent" role="dialog" aria-modal="true" aria-labelledby="consentTitle" aria-describedby="consentDesc" hidden>
-    <div class="consent-inner">
-      <h2 id="consentTitle">Préférences de confidentialité</h2>
-      <p id="consentDesc">Nous utilisons Google Analytics avec le Consent Mode v2. Les analytics démarrent désactivées. Activez-les pour nous aider à améliorer le site.</p>
-      <div class="consent-actions">
-        <button id="consentAccept" class="btn btn-primary">Accepter</button>
-        <button id="consentDecline" class="btn btn-ghost">Refuser</button>
-        <button id="consentSettings" class="btn btn-link">Paramètres</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="/assets/main.min.js" defer></script>
+<!-- Bandeau consentement (caché par défaut ; contrôlé via JS) -->
+<div aria-describedby="consentDesc" aria-labelledby="consentTitle" aria-modal="true" class="consent" hidden="" id="consent" role="dialog">
+<div class="consent-inner">
+<h2 id="consentTitle">Préférences de confidentialité</h2>
+<p id="consentDesc">Nous utilisons Google Analytics avec le Consent Mode v2. Les analytics démarrent désactivées. Activez-les pour nous aider à améliorer le site.</p>
+<div class="consent-actions">
+<button class="btn btn-primary" id="consentAccept">Accepter</button>
+<button class="btn btn-ghost" id="consentDecline">Refuser</button>
+<button class="btn btn-link" id="consentSettings">Paramètres</button>
+</div>
+</div>
+</div>
+<!-- Scripts -->
+<script defer="" src="/assets/main.min.js"></script>
 </body>
 </html>
