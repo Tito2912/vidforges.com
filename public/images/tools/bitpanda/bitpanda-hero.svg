@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" fill="none" role="img" aria-label="Illustration portefeuille : crypto, actions/ETF et métaux">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="0" x2="716" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBF8"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#21CE99"/>
+      <stop offset="1" stop-color="#2F80ED"/>
+    </linearGradient>
+    <filter id="shadow" x="-30" y="-30" width="860" height="580" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0E1412" flood-opacity=".10"/>
+    </filter>
+    <filter id="soft" x="-20" y="-20" width="840" height="560" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0E1412" flood-opacity=".08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="520" rx="32" fill="url(#bg)"/>
+  <circle cx="640" cy="120" r="140" fill="#21CE99" opacity=".08"/>
+  <circle cx="170" cy="410" r="180" fill="#2F80ED" opacity=".07"/>
+  <path d="M110 120C180 70 270 60 340 95C430 140 520 125 610 75" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+  <path d="M150 165C220 130 280 125 350 150C420 175 500 175 610 140" stroke="#21CE99" stroke-width="4" stroke-linecap="round" opacity=".25"/>
+
+  <!-- Main board -->
+  <g filter="url(#shadow)">
+    <rect x="92" y="86" width="616" height="348" rx="26" fill="#FFFFFF" stroke="#E2E8E6"/>
+  </g>
+
+  <!-- Header strip -->
+  <rect x="124" y="118" width="552" height="58" rx="18" fill="#F5F7F6" stroke="#E2E8E6"/>
+  <circle cx="156" cy="147" r="16" fill="url(#accent)"/>
+  <path d="M150 145c2-6 12-6 14 0c2 6-5 10-7 10s-9-4-7-10Z" fill="#fff" opacity=".95"/>
+  <rect x="184" y="135" width="180" height="12" rx="6" fill="#0E1412" opacity=".10"/>
+  <rect x="184" y="152" width="120" height="10" rx="5" fill="#0E1412" opacity=".07"/>
+  <rect x="520" y="136" width="132" height="24" rx="12" fill="#21CE99" opacity=".18"/>
+  <rect x="538" y="144" width="96" height="8" rx="4" fill="#0E1412" opacity=".12"/>
+
+  <!-- Cards -->
+  <g filter="url(#soft)">
+    <rect x="124" y="200" width="256" height="190" rx="20" fill="#FFFFFF" stroke="#E2E8E6"/>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="404" y="200" width="272" height="122" rx="20" fill="#FFFFFF" stroke="#E2E8E6"/>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="404" y="340" width="272" height="50" rx="20" fill="#FFFFFF" stroke="#E2E8E6"/>
+  </g>
+
+  <!-- Card 1: Crypto -->
+  <circle cx="156" cy="232" r="14" fill="#21CE99" opacity=".22"/>
+  <path d="M156 223c6 0 10 4 10 9s-4 9-10 9-10-4-10-9 4-9 10-9Z" stroke="#21CE99" stroke-width="2"/>
+  <path d="M152 232h8" stroke="#21CE99" stroke-width="2" stroke-linecap="round"/>
+  <path d="M154 227v10" stroke="#21CE99" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <rect x="180" y="224" width="128" height="10" rx="5" fill="#0E1412" opacity=".12"/>
+  <rect x="180" y="240" width="170" height="8" rx="4" fill="#0E1412" opacity=".07"/>
+  <rect x="148" y="270" width="190" height="12" rx="6" fill="#0E1412" opacity=".08"/>
+  <rect x="148" y="292" width="214" height="10" rx="5" fill="#0E1412" opacity=".06"/>
+  <rect x="148" y="314" width="170" height="10" rx="5" fill="#0E1412" opacity=".06"/>
+  <path d="M148 350h214" stroke="#E2E8E6"/>
+  <rect x="148" y="360" width="82" height="18" rx="9" fill="#21CE99" opacity=".18"/>
+  <rect x="240" y="360" width="70" height="18" rx="9" fill="#2F80ED" opacity=".14"/>
+  <rect x="318" y="360" width="44" height="18" rx="9" fill="#0E1412" opacity=".06"/>
+
+  <!-- Card 2: Stocks & ETFs -->
+  <circle cx="436" cy="232" r="14" fill="#2F80ED" opacity=".18"/>
+  <path d="M428 240l6-8 6 6 10-14 6 6" stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="460" y="224" width="146" height="10" rx="5" fill="#0E1412" opacity=".12"/>
+  <rect x="460" y="240" width="190" height="8" rx="4" fill="#0E1412" opacity=".07"/>
+  <rect x="436" y="266" width="220" height="36" rx="12" fill="#F5F7F6" stroke="#E2E8E6"/>
+  <path d="M450 291c18-10 30-10 44 0c16 12 34 10 52-6c18-16 36-18 54-6c18 12 34 10 50-6" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Card 3: Metals -->
+  <circle cx="436" cy="365" r="12" fill="#0E1412" opacity=".06"/>
+  <path d="M428 367h16" stroke="#0E1412" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+  <path d="M432 358h8l2 4h-12l2-4Z" fill="#21CE99" opacity=".28"/>
+  <rect x="460" y="357" width="110" height="10" rx="5" fill="#0E1412" opacity=".11"/>
+  <rect x="460" y="372" width="162" height="8" rx="4" fill="#0E1412" opacity=".06"/>
+</svg>
+

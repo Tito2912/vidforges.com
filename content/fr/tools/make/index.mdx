@@ -1,0 +1,154 @@
+---
+title: 'Make — Automatisation no‑code & intégrations (Guide 2026) | Vidforges'
+description: 'Make (ex Integromat) est une plateforme d’automatisation no‑code : scénarios, webhooks, planification, mapping de données. Bases, cas d’usage et workflow de départ.'
+canonical: '/fr/tools/make/'
+lang: 'fr'
+translationKey: 'tool_make'
+type: 'page'
+updatedAt: '2026-04-11'
+primaryKeyword: 'Make automatisation'
+faq:
+  - q: 'À quoi sert Make ?'
+    a: 'À automatiser des workflows entre applications : leads, synchronisation, emails, tâches, fichiers, et déclenchements par webhook ou planification.'
+  - q: 'Make ou Zapier ?'
+    a: 'Zapier est souvent plus simple pour du basique. Make est très fort dès que vous avez besoin de routes, mapping, erreurs et scénarios complexes.'
+  - q: 'Faut-il coder ?'
+    a: 'Non. Tout est visuel. Pour aller plus loin, vous pouvez utiliser des webhooks, du JSON et des API keys, mais ce n’est pas obligatoire.'
+---
+
+<div class="container">
+  <nav aria-label="Fil d’Ariane" class="breadcrumb">
+    <ol>
+      <li>
+        <a href="/fr/">Accueil</a>
+      </li>
+      <li>
+        <a href="/fr/tools/">Outils</a>
+      </li>
+      <li aria-current="page">Make</li>
+    </ol>
+  </nav>
+
+  <article class="article-content">
+    <header class="article-header" data-animate="">
+      <h1>Make</h1>
+      <p>Automatisation no‑code : connecter vos apps et exécuter des scénarios via planification ou webhooks.</p>
+      <p>
+        <a
+          class="btn-primary btn-large"
+          data-affiliate-product="make"
+          href="https://www.make.com/en/register?pc=makebyebyesalariat"
+          rel="noopener nofollow sponsored noreferrer"
+          target="_blank"
+        >
+          Essayer Make
+        </a>
+        <a class="btn-secondary btn-large" href="/fr/tools/">
+          Voir tous les outils
+        </a>
+      </p>
+      <p class="muted">Transparence : certains liens sortants sont affiliés.</p>
+    </header>
+
+    <div class="article-body">
+
+## C’est quoi Make ?
+
+Make est une plateforme d’automatisation visuelle. Vous créez des **scénarios** qui connectent des applications et s’exécutent :
+
+- sur événement (nouveau lead, nouvelle commande, nouveau fichier)
+- sur planning (toutes les heures/jours)
+- via webhook (temps réel)
+
+Pour un site d’affiliation / contenu, c’est idéal pour automatiser la collecte de leads, le reporting, et l’organisation des assets.
+
+## Idéal pour
+
+- Routage des leads (formulaire → CRM → email)
+- Ops contenu (checklists, alertes, mise à jour de tableurs)
+- Ops e‑commerce (commande → support → logistique)
+- Reporting (métriques quotidiennes)
+
+## Tarifs (vérifiés avril 2026)
+
+Make facture surtout selon les **crédits** (chaque action de module compte généralement comme un crédit). En avril 2026, la page officielle indique notamment :
+
+- **Free** : $0/mois (jusqu’à 1 000 crédits/mois)
+- **Core** : $9/mois (prix affiché pour 10k crédits/mois)
+- **Pro** : $16/mois (prix affiché pour 10k crédits/mois)
+- **Teams** : $29/mois (prix affiché pour 10k crédits/mois)
+- **Enterprise** : sur devis
+
+En pratique, votre coût dépend de **crédits/jour × scénarios**. Mesurez 7 jours de runs (et la conso réelle) avant de choisir un plan.
+
+## Capture
+
+<div class="gallery-grid">
+  <figure class="gallery-item">
+    <img alt="Interface Make : builder de scénarios" decoding="async" height="720" loading="lazy" src="/images/tools/make/capture-make.png" width="1280"/>
+    <figcaption>Aperçu du builder</figcaption>
+  </figure>
+</div>
+
+## Concepts clés
+
+- **Trigger** : déclencheur
+- **Modules** : étapes (chercher, transformer, créer, envoyer)
+- **Opérations** : mesure de consommation selon plans
+- **Routes** : branchements conditionnels
+- **Gestion d’erreurs** : retries, fallback, alertes
+
+## Scénario de départ (stack créateur)
+
+Exemple : “Nouveau lead → email de bienvenue → alerte Slack → ligne Google Sheets”
+
+1. Trigger : nouvelle soumission (ou lead Système.io).
+2. Validation : nettoyer/formatter les champs.
+3. Action : email de bienvenue (ou ajout à votre outil email).
+4. Action : notification Slack/Discord.
+5. Log : ajout dans Google Sheets.
+
+## Avantages / inconvénients
+
+<div class="pros-cons">
+  <div class="pros">
+    <h4>Avantages</h4>
+    <ul>
+      <li>Très flexible pour routes et mapping</li>
+      <li>Parfait pour webhooks et temps réel</li>
+      <li>Évolue du simple au complexe</li>
+    </ul>
+  </div>
+  <div class="cons">
+    <h4>Inconvénients</h4>
+    <ul>
+      <li>Peut sembler complexe pour du très basique</li>
+      <li>Suivre la conso (opérations) sur les scénarios lourds</li>
+      <li>Debug : nécessite bons noms et logs</li>
+    </ul>
+  </div>
+</div>
+
+## Outils complémentaires
+
+- <a href="/fr/tools/systeme/">Système.io</a> pour funnels & email
+- <a href="/fr/tools/shopify/">Shopify</a> pour e‑commerce
+
+## Guides recommandés
+
+- <a href="/fr/guides/creator-stack/">Stack créateur (2026)</a> — automatiser handoffs et versioning.
+- <a href="/fr/guides/ugc-ads-system/">Système UGC Ads</a> — garder des tests propres (naming + logs).
+- <a href="/fr/guides/video-localization/">Localisation vidéo</a> — scaler exports et QA multi‑marchés.
+
+## Articles liés
+
+- <a href="/fr/blog/creator-stack-workflow/">Checklist workflow creator stack (2026)</a>
+- <a href="/fr/blog/ugc-hooks-playbook/">Playbook hooks UGC (2026) : variantes, captions, tests</a>
+
+## Sources (tarifs & docs)
+
+- Tarifs officiels : https://www.make.com/en/pricing
+
+</div>
+</article>
+</div>

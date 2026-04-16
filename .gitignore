@@ -11,3 +11,12 @@ ahrefs-export/
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*
