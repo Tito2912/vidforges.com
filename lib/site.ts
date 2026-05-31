@@ -1,4 +1,4 @@
-export const SITE = {
+﻿export const SITE = {
   baseUrl: 'https://vidforges.com',
   domain: 'vidforges.com',
   brandName: 'Vidforges',
@@ -14,7 +14,7 @@ export const SITE = {
   contactEmail: 'contact.ecomshopfrance@gmail.com',
   ga4Id: 'G-NHSS23Q3D9',
   affiliateLinks: {
-    elevenlabs: 'https://try.elevenlabs.io/q4qifzaxhkwg',
+    elevenlabs: 'https://try.elevenlabs.io/uo7tjoejxk32',
     pictory: 'https://pictory.ai?ref=pictoryavis',
     akool: 'https://akool.com/?via=rayzideoai',
     heygen:
