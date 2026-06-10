@@ -14,7 +14,7 @@
   contactEmail: 'contact.ecomshopfrance@gmail.com',
   ga4Id: 'G-NHSS23Q3D9',
   affiliateLinks: {
-    elevenlabs: 'https://try.elevenlabs.io/uo7tjoejxk32',
+    elevenlabs: 'https://try.elevenlabs.io/q4qifzaxhkwg',
     pictory: 'https://pictory.ai?ref=pictoryavis',
     akool: 'https://akool.com/?via=rayzideoai',
     heygen:
