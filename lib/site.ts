@@ -15,7 +15,7 @@
   ga4Id: 'G-NHSS23Q3D9',
   affiliateLinks: {
     elevenlabs: 'https://try.elevenlabs.io/q4qifzaxhkwg',
-    pictory: 'https://pictory.ai?ref=pictoryavis',
+    pictory: 'https://pictory.ai?fpr=tony53',
     akool: 'https://akool.com/?via=rayzideoai',
     heygen:
       'https://www.heygen.com/?sid=rewardful&utm_content=creator&utm_medium=affiliate&via=rayzvideoai',
